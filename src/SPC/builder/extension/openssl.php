@@ -25,6 +25,6 @@ class openssl extends Extension
 
     public function getUnixConfigureArg(): string
     {
-        return '--with-openssl=' . BUILD_ROOT_PATH . ' --with-openssl-dir=' . BUILD_ROOT_PATH;
+        return '--with-openssl=./ --with-openssl-dir=./';
     }
 }
