@@ -25,6 +25,6 @@ class openssl extends Extension
 
     public function getUnixConfigureArg(): string
     {
-        return '--with-prefix=./ --with-openssldir=./';
+        return '--with-openssldir=./';
     }
 }
